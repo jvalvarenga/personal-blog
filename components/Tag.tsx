@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { slug } from 'github-slugger'
 interface Props {
   text: string
-  key: any
+  key: number
   isLast: boolean
 }
 
