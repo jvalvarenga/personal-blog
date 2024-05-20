@@ -4,7 +4,6 @@ import { Authors, allAuthors } from 'contentlayer/generated'
 import { MDXLayoutRenderer } from 'pliny/mdx-components'
 import AuthorLayout from '@/layouts/AuthorLayout'
 import Main from './Main'
-import Intro from './Intro'
 
 export default async function Page() {
   const author = allAuthors.find((p) => p.slug === 'default') as Authors
