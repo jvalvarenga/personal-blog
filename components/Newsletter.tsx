@@ -25,7 +25,7 @@ const Newsletter: React.FC = () => {
 
     const config = {
       method: 'POST',
-      url: process.env.NEWSLETTER_API_URL,
+      url: `${process.env.NEWSLETTER_API_URL}/api/newsletter-submission`,
       headers: {
         'Content-Type': 'application/json',
       },
@@ -34,11 +34,10 @@ const Newsletter: React.FC = () => {
 
     try {
       const response = await axios(config)
-      if (response.status === 201) {
+      if (response.status == 201) {
         resetForm()
         setIsModalOpen(true)
       } else {
-        console.error('Unexpected response status:', response.status)
         enqueueSnackbar(
           'Something went wrong with your subscription. Please try with another email.'
         )
