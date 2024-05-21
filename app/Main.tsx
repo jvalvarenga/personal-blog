@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
-// import NewsletterForm from '@/components/NewsletterForm'
+import Newsletter from '@/components/Newsletter'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 
@@ -81,11 +81,9 @@ export default function Home({ posts }) {
           </Link>
         </div>
       )}
-      {/* {siteMetadata.newsletter?.provider && (
-        <div className="flex items-center justify-center pt-4">
-          <NewsletterForm />
-        </div>
-      )} */}
+      <div className="flex items-center justify-center pt-4">
+        <Newsletter />
+      </div>
     </>
   )
 }
