@@ -14,6 +14,7 @@ import { ValidationSchema } from '../schema/FormValidation'
 
 type FormValues = {
   email: string
+  acceptTerms: boolean
 }
 
 const Newsletter: React.FC = () => {
@@ -43,7 +44,6 @@ const Newsletter: React.FC = () => {
         )
       }
     } catch (err) {
-      console.error('Error submitting form:', err)
       enqueueSnackbar('Something went wrong with your subscription. Please try with another email.')
     }
     setLoading(false)
@@ -52,6 +52,7 @@ const Newsletter: React.FC = () => {
   const { values, errors, touched, resetForm, handleBlur, handleChange, handleSubmit } = useFormik({
     initialValues: {
       email: '',
+      acceptTerms: true,
     },
     validationSchema: ValidationSchema,
     onSubmit: submitForm,
