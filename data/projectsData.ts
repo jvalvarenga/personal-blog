@@ -18,6 +18,24 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/chillhop-logo.png',
     href: 'https://chillhoop-music-player.web.app/',
   },
+  {
+    title: 'Sthenes Initiative',
+    description: `Sthenes is an open source software and technology research and development foundation.`,
+    imgSrc: '/static/images/sthenes-banner.png',
+    href: 'https://sthenes.vercel.app/',
+  },
+  {
+    title: 'Atalaso',
+    description: `Atalaso is a software development and IT services company founded with the idea of making the transition to digital easier, efficient and more profitable by creating customer-centric experiences.`,
+    imgSrc: '/static/images/atalaso-banner.png',
+    href: 'https://atalaso.com/',
+  },
+  {
+    title: 'Shops eCommerce webApp',
+    description: `It is a Web app that offers all the functionalities of an E-Commerce website. Products, product page with information about the product has a cart where customers can add items to the list it also offers the possibility for the customer to log in with google authentication, it also allows users to create an account with an email and also allows password reset if necessary.`,
+    imgSrc: '/static/images/shops-banner.png',
+    href: 'https://react-ecommerce-webapp-20aa4.web.app/',
+  },
 ]
 
 export default projectsData
