@@ -7,6 +7,12 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'Threads Clone',
+    description: `A webapp that clones the Threads app functionalities like post, comment and create communities, the app have a beautiful and user friendly interface.`,
+    imgSrc: '/static/images/threads-banner.png',
+    href: 'https://threads-clone-v1.vercel.app',
+  },
+  {
     title: 'NBA Scores',
     description: `A web application for viewing NBA match results and team statistics. Using Next.js, TypeScript, Tailwind CSS and the NBA API, the web application allows users to view NBA results in real time and also see upcoming games and previous results.`,
     imgSrc: '/static/images/nba-logo.png',
