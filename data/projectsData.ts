@@ -7,6 +7,12 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: 'Sendtype',
+    description: `Sendtype is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. We want a quiet space to think, and we want all the information we need to be there when we need it.`,
+    imgSrc: '/static/images/threads-banner.png',
+    href: 'https://threads-clone-v1.vercel.app',
+  },
+  {
     title: 'Threads Clone',
     description: `A webapp that clones the Threads app functionalities like post, comment and create communities, the app have a beautiful and user friendly interface.`,
     imgSrc: '/static/images/threads-banner.png',
