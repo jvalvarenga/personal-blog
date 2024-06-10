@@ -9,8 +9,8 @@ const projectsData: Project[] = [
   {
     title: 'Sendtype',
     description: `Sendtype is a single space where you can think, write, and plan. Capture thoughts, manage projects, or even run an entire company — and do it exactly the way you want. We want a quiet space to think, and we want all the information we need to be there when we need it.`,
-    imgSrc: '/static/images/threads-banner.png',
-    href: 'https://threads-clone-v1.vercel.app',
+    imgSrc: '/static/images/sendtype-banner.png',
+    href: 'https://sendtype.vercel.app',
   },
   {
     title: 'Threads Clone',
