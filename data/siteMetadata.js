@@ -13,7 +13,7 @@ const siteMetadata = {
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'victor.alvar@tutanota.com',
   github: 'https://github.com/jvalvarenga',
-  x: 'https://twitter.com/victorsalvar',
+  x: 'https://twitter.com/joaosalvarenga',
   facebook: 'https://facebook.com',
   youtube: 'https://youtube.com',
   linkedin: 'https://www.linkedin.com/in/joaov-alvarenga',
